@@ -5,6 +5,7 @@ import (
 	weapon "PATTERNQUEST/items/weapons"
 )
 
+// Concrete Factory that implements 'CharacterFactory' interface (implicitly)
 type ElfFactory struct{}
 
 func (e *ElfFactory) CreateArcher() character.Character {
